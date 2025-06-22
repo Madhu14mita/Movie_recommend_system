@@ -47,10 +47,12 @@ movie_recommend/
 └── similarity.pkl # Similarity matrix (from Google Drive)  
 
 ---
-##☁️ Deployment
+## ☁️ Deployment
 
-Hosted on Streamlit Cloud/
+- Hosted on [**Streamlit Cloud**](https://streamlit.io/cloud)
+- `.pkl` files are **not stored in the repo** (to avoid GitHub file size limits)
+- Instead, they are stored on **Google Drive** and securely fetched at runtime using `gdown`
+- This ensures smooth deployment without large files in the repository
 
-.pkl files are loaded at runtime from Google Drive using gdown (no large files in repo)
 
 
