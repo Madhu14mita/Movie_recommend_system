@@ -39,12 +39,12 @@ Welcome to the **Movie Recommender System** — an intelligent app that helps us
 
 ## 📦 Project Structure
 
-movie_recommend/
-├── app.py # Main Streamlit application
-├── requirements.txt # Python dependencies
-├── README.md # Project documentation
-└── movie.pkl # Movie metadata (from Google Drive)
-└── similarity.pkl # Similarity matrix (from Google Drive)
+movie_recommend/  
+├── app.py # Main Streamlit application  
+├── requirements.txt # Python dependencies  
+├── README.md # Project documentation  
+└── movie.pkl # Movie metadata (from Google Drive)  
+└── similarity.pkl # Similarity matrix (from Google Drive)  
 
 ---
 ☁️ Deployment
